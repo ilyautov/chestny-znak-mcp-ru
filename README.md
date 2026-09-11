@@ -14,6 +14,12 @@ API Честного знака (ГИС МТ и СУЗ) для ИИ-ассист
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-0098FF?logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=crpt&config=%7B%22command%22%3A%20%22uvx%22%2C%20%22args%22%3A%20%5B%22chestny-znak-mcp-ru%22%5D%2C%20%22env%22%3A%20%7B%22CRPT_TOKEN%22%3A%20%22%24%7Binput%3Acrpt_token%7D%22%7D%7D&inputs=%5B%7B%22id%22%3A%20%22crpt_token%22%2C%20%22type%22%3A%20%22promptString%22%2C%20%22description%22%3A%20%22%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD%20%D0%93%D0%98%D0%A1%20%D0%9C%D0%A2%2C%20%D0%B2%D1%8B%D0%B4%D0%B0%D1%91%D1%82%D1%81%D1%8F%20%D0%B2%20%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%20%D0%BD%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%2C%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%9A%D0%AD%D0%9F.%20%D0%96%D0%B8%D0%B2%D1%91%D1%82%20%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%2010%20%D1%87%D0%B0%D1%81%D0%BE%D0%B2.%22%2C%20%22password%22%3A%20true%7D%5D)
 [![Install in Cursor](https://img.shields.io/badge/Cursor-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-000000?logo=cursor&logoColor=white)](https://cursor.com/en/install-mcp?name=crpt&config=eyJjb21tYW5kIjogInV2eCIsICJhcmdzIjogWyJjaGVzdG55LXpuYWstbWNwLXJ1Il0sICJlbnYiOiB7IkNSUFRfVE9LRU4iOiAiIn19)
 
+<p align="center">
+  <a href="https://business-mcp-ru.aifrontier.tech/">
+    <img src="assets/social-preview.png" alt="chestny-znak-mcp-ru: API Честного знака (ГИС МТ) в ИИ-ассистенте. 33 метода, поиск метода словами, гейт безопасности перед записью" width="760">
+  </a>
+</p>
+
 Каталог собран из первоисточника (открытые SDK True API и СУЗ) и лежит в репозитории как
 `crpt_mcp/endpoints.yaml`: **33 метода**, из них 24 на чтение,
 9 на запись и 0 необратимых. Сервер исполняет ровно этот файл,
