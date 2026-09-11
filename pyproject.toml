@@ -1,0 +1,35 @@
+[project]
+name = "chestny-znak-mcp-ru"
+version = "0.1.0"
+description = "API Честного знака (ГИС МТ и СУЗ) для ИИ-ассистентов: сведения о кодах маркировки, выгрузка по фильтру, маршрут товара по GTIN, заказы на эмиссию, отчёты о нанесении, проверка подлинности"
+keywords = ["mcp", "model-context-protocol", "crpt", "chestny-znak", "честный-знак", "marking", "маркировка", "russia", "claude"]
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Ilya Utov" }]
+dependencies = [
+    # Ядро живёт отдельным пакетом: пять серверов делят его, а не копируют.
+    "ru-mcp-core>=0.1.0,<1",
+]
+
+[project.urls]
+Repository = "https://github.com/ilyautov/chestny-znak-mcp-ru"
+Issues = "https://github.com/ilyautov/chestny-znak-mcp-ru/issues"
+Changelog = "https://github.com/ilyautov/chestny-znak-mcp-ru/blob/main/CHANGELOG.md"
+
+[project.scripts]
+chestny-znak-mcp-ru = "crpt_mcp.server:cli"
+crpt-mcp = "crpt_mcp.server:cli"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["crpt_mcp"]
+
+[tool.setuptools.package-data]
+crpt_mcp = ["endpoints.yaml"]
