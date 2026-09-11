@@ -1,6 +1,6 @@
 [project]
 name = "chestny-znak-mcp-ru"
-version = "0.1.0"
+version = "0.1.1"
 description = "API Честного знака (ГИС МТ и СУЗ) для ИИ-ассистентов: сведения о кодах маркировки, выгрузка по фильтру, маршрут товара по GTIN, заказы на эмиссию, отчёты о нанесении, проверка подлинности"
 keywords = ["mcp", "model-context-protocol", "crpt", "chestny-znak", "честный-знак", "marking", "маркировка", "russia", "claude"]
 readme = "README.md"
