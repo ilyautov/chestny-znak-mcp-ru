@@ -1,9 +1,21 @@
 # chestny-znak-mcp-ru
 
+<!-- mcp-name: io.github.ilyautov/chestny-znak-mcp-ru -->
+
 API Честного знака (ГИС МТ и СУЗ) для ИИ-ассистентов: сведения о кодах маркировки, выгрузка по фильтру, маршрут товара по GTIN, заказы на эмиссию, отчёты о нанесении, проверка подлинности.
 
+[![PyPI](https://img.shields.io/pypi/v/chestny-znak-mcp-ru?label=pypi&color=B5491F)](https://pypi.org/project/chestny-znak-mcp-ru/)
+[![CI](https://github.com/ilyautov/chestny-znak-mcp-ru/actions/workflows/ci.yml/badge.svg)](https://github.com/ilyautov/chestny-znak-mcp-ru/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Методов](https://img.shields.io/badge/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0-33-2D7D4F)](#карта-методов)
+[![Сайт](https://img.shields.io/badge/%D1%81%D0%B0%D0%B9%D1%82-business--mcp--ru-9A3E1A)](https://business-mcp-ru.aifrontier.tech/chestny-znak-api.html)
+[![Звёзды](https://img.shields.io/github/stars/ilyautov/chestny-znak-mcp-ru?style=flat&label=%D0%B7%D0%B2%D1%91%D0%B7%D0%B4%D1%8B&color=B5491F&logo=github&logoColor=white)](https://github.com/ilyautov/chestny-znak-mcp-ru/stargazers)
+
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-0098FF?logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=crpt&config=%7B%22command%22%3A%20%22uvx%22%2C%20%22args%22%3A%20%5B%22chestny-znak-mcp-ru%22%5D%2C%20%22env%22%3A%20%7B%22CRPT_TOKEN%22%3A%20%22%24%7Binput%3Acrpt_token%7D%22%7D%7D&inputs=%5B%7B%22id%22%3A%20%22crpt_token%22%2C%20%22type%22%3A%20%22promptString%22%2C%20%22description%22%3A%20%22%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD%20%D0%93%D0%98%D0%A1%20%D0%9C%D0%A2%2C%20%D0%B2%D1%8B%D0%B4%D0%B0%D1%91%D1%82%D1%81%D1%8F%20%D0%B2%20%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%20%D0%BD%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%2C%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%9A%D0%AD%D0%9F.%20%D0%96%D0%B8%D0%B2%D1%91%D1%82%20%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%2010%20%D1%87%D0%B0%D1%81%D0%BE%D0%B2.%22%2C%20%22password%22%3A%20true%7D%5D)
+[![Install in Cursor](https://img.shields.io/badge/Cursor-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-000000?logo=cursor&logoColor=white)](https://cursor.com/en/install-mcp?name=crpt&config=eyJjb21tYW5kIjogInV2eCIsICJhcmdzIjogWyJjaGVzdG55LXpuYWstbWNwLXJ1Il0sICJlbnYiOiB7IkNSUFRfVE9LRU4iOiAiIn19)
+
 Каталог собран из первоисточника (открытые SDK True API и СУЗ) и лежит в репозитории как
-`crpt_mcp/endpoints.yaml`: **33 методов**, из них 24 на чтение,
+`crpt_mcp/endpoints.yaml`: **33 метода**, из них 24 на чтение,
 9 на запись и 0 необратимых. Сервер исполняет ровно этот файл,
 поэтому таблица ниже не может разойтись с кодом.
 
