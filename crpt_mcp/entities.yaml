@@ -1,0 +1,47 @@
+# Сгенерировано split.py из sections.json. Руками не править.
+entities:
+  - key: codes
+    title_ru: Проверка кодов
+    title_en: Codes
+    match: [codes]
+    synonyms: [проверка, кодов, проверить, codes]
+  - key: cises
+    title_ru: Коды маркировки
+    title_en: Cises
+    match: [cises]
+    synonyms: [коды, маркировки, код, кизы, cises]
+  - key: orders
+    title_ru: Заказы на эмиссию
+    title_en: Orders
+    match: [orders]
+    synonyms: [заказы, эмиссию, эмиссия, заказ, orders]
+  - key: system
+    title_ru: Служебные
+    title_en: System
+    match: [system]
+    synonyms: [служебные, system]
+  - key: receipts
+    title_ru: Чеки
+    title_en: Receipts
+    match: [receipts]
+    synonyms: [чеки, receipts]
+  - key: documents
+    title_ru: Документы ГИС МТ
+    title_en: Documents
+    match: [documents]
+    synonyms: [документы, отчёты, documents]
+  - key: quality
+    title_ru: Отчёты о нанесении
+    title_en: Quality
+    match: [quality]
+    synonyms: [отчёты, нанесении, quality]
+  - key: auth
+    title_ru: Авторизация
+    title_en: Auth
+    match: [auth]
+    synonyms: [авторизация, auth]
+  - key: products
+    title_ru: Товары и GTIN
+    title_en: Products
+    match: [products]
+    synonyms: [товары, gtin, products]

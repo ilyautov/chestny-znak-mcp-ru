@@ -69,11 +69,25 @@ Claude Desktop, `claude_desktop_config.json`:
 
 ## Как это выглядит в чате
 
+Вы: коды маркировки в обороте
+
 ```
-crpt_search_methods("...")   поиск метода словами, а не по имени эндпоинта
-crpt_describe_method(...)    параметры, пагинация, класс доступа
-crpt_call_method(...)        вызов; запись спрашивает подтверждение
+crpt_search_methods("коды маркировки в обороте")
+  crpt_gis_cises_my      GET  /api/v3/true-api/cises/my  чтение
+  crpt_gis_cis_outcheck  GET  /api/v1/cis/outCheck       чтение
+  crpt_suz_codes         GET  /api/v3/codes              чтение
+
+crpt_describe_method("crpt_gis_cises_my")
+  Коды маркировки, принадлежащие участнику оборота
+  GET markirovka.crpt.ru/api/v3/true-api/cises/my
+  параметры: нет
+  класс доступа: чтение
+
+crpt_call_method("crpt_gis_cises_my", {})
 ```
+
+Три инструмента вместо 33 функций: агент ищет метод словами,
+читает его карточку и вызывает. Запись и необратимое спрашивают подтверждение.
 
 Что обычно просят:
 

@@ -1,6 +1,6 @@
 [project]
 name = "chestny-znak-mcp-ru"
-version = "0.1.1"
+version = "0.2.0"
 description = "API Честного знака (ГИС МТ и СУЗ) для ИИ-ассистентов: сведения о кодах маркировки, выгрузка по фильтру, маршрут товара по GTIN, заказы на эмиссию, отчёты о нанесении, проверка подлинности"
 keywords = ["mcp", "model-context-protocol", "crpt", "chestny-znak", "честный-знак", "marking", "маркировка", "russia", "claude"]
 readme = "README.md"
@@ -9,7 +9,7 @@ license = "MIT"
 authors = [{ name = "Ilya Utov" }]
 dependencies = [
     # Ядро живёт отдельным пакетом: пять серверов делят его, а не копируют.
-    "schema-mcp-core>=0.1.0,<1",
+    "schema-mcp-core>=0.2.0,<1",
 ]
 
 [project.urls]
@@ -32,4 +32,4 @@ build-backend = "setuptools.build_meta"
 packages = ["crpt_mcp"]
 
 [tool.setuptools.package-data]
-crpt_mcp = ["endpoints.yaml"]
+crpt_mcp = ["endpoints.yaml", "entities.yaml"]
