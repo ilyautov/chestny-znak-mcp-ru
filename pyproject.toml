@@ -1,6 +1,6 @@
 [project]
 name = "chestny-znak-mcp-ru"
-version = "0.2.0"
+version = "0.2.1"
 description = "API Честного знака (ГИС МТ и СУЗ) для ИИ-ассистентов: сведения о кодах маркировки, выгрузка по фильтру, маршрут товара по GTIN, заказы на эмиссию, отчёты о нанесении, проверка подлинности"
 keywords = ["mcp", "model-context-protocol", "crpt", "chestny-znak", "честный-знак", "marking", "маркировка", "russia", "claude"]
 readme = "README.md"
@@ -13,6 +13,8 @@ dependencies = [
 ]
 
 [project.urls]
+Homepage = "https://business-mcp-ru.aifrontier.tech/"
+Documentation = "https://business-mcp-ru.aifrontier.tech/chestny-znak-api.html"
 Repository = "https://github.com/ilyautov/chestny-znak-mcp-ru"
 Issues = "https://github.com/ilyautov/chestny-znak-mcp-ru/issues"
 Changelog = "https://github.com/ilyautov/chestny-znak-mcp-ru/blob/main/CHANGELOG.md"
