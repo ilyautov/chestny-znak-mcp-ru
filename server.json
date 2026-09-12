@@ -3,7 +3,8 @@
   "name": "io.github.ilyautov/chestny-znak-mcp-ru",
   "title": "Честный знак MCP (RU) — коды маркировки, ГИС МТ, СУЗ",
   "description": "API Честного знака в ИИ-ассистенте: коды маркировки, эмиссия в СУЗ, отчёты",
-  "version": "0.2.1",
+  "version": "0.2.2",
+  "websiteUrl": "https://business-mcp-ru.aifrontier.tech/chestny-znak-api.html",
   "repository": {
     "url": "https://github.com/ilyautov/chestny-znak-mcp-ru",
     "source": "github"
@@ -13,7 +14,7 @@
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "chestny-znak-mcp-ru",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"
