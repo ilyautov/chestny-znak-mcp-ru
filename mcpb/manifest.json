@@ -1,0 +1,62 @@
+{
+  "manifest_version": "0.3",
+  "name": "chestny-znak-mcp-ru",
+  "display_name": "Честный знак (ГИС МТ): коды маркировки (chestny-znak-mcp-ru)",
+  "version": "0.2.2",
+  "description": "API Честного знака прямо в Claude: сведения о кодах маркировки, выгрузка по фильтру, маршрут товара по GTIN, заказы на эмиссию, отчёты о нанесении, проверка подлинности.",
+  "long_description": "Подключает ассистента к API ГИС МТ и СУЗ по вашему токену. Каталог из 33 методов, чтение идёт сразу, запись и необратимое действие требуют подтверждения. Токен хранится локально и в чат не попадает.",
+  "author": {
+    "name": "Ilya Utov",
+    "url": "https://github.com/ilyautov"
+  },
+  "homepage": "https://business-mcp-ru.aifrontier.tech/chestny-znak-api.html",
+  "documentation": "https://github.com/ilyautov/chestny-znak-mcp-ru/blob/main/README.md",
+  "support": "https://github.com/ilyautov/chestny-znak-mcp-ru/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyautov/chestny-znak-mcp-ru"
+  },
+  "license": "MIT",
+  "privacy_policies": [
+    "https://business-mcp-ru.aifrontier.tech/privacy.html"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "crpt",
+    "chestny-znak",
+    "честный-знак",
+    "marking",
+    "маркировка",
+    "russia",
+    "claude"
+  ],
+  "server": {
+    "type": "python",
+    "entry_point": "server/serve.py",
+    "mcp_config": {
+      "command": "python",
+      "args": [
+        "${__dirname}/server/serve.py",
+        "crpt"
+      ],
+      "env": {
+        "CRPT_TOKEN": "${user_config.crpt_token}"
+      }
+    }
+  },
+  "user_config": {
+    "crpt_token": {
+      "type": "string",
+      "title": "Токен ГИС МТ",
+      "description": "GET /api/v3/true-api/auth/key отдаёт данные для подписи, их подписывают КЭП (КриптоПро) и обменивают через POST /api/v3/true-api/auth/simpleSignIn. Токен живёт около 10 часов.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "compatibility": {
+    "runtimes": {
+      "python": ">=3.10"
+    }
+  }
+}
