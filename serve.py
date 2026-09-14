@@ -23,7 +23,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 VENV = Path(os.environ.get("CRPT_MCP_VENV", HERE / ".venv"))
-DEPS = ["schema-mcp-core>=0.2.0,<1"]
+DEPS = ["schema-mcp-core>=0.3.0,<1"]
 SERVICES = {"crpt": "crpt_mcp.server"}
 
 
