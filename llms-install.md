@@ -51,7 +51,8 @@ uvx chestny-znak-mcp-ru doctor
 показывает. Установка удалась, если в выводе есть строка с числом методов.
 
 После перезапуска клиента у агента появляются инструменты `crpt_search_methods`,
-`crpt_describe_method`, `crpt_call_method`, `crpt_map` и кабинеты. Начинать
+`crpt_describe_method`, `crpt_call_method` (чтение),
+`crpt_write_method`, `crpt_delete_method`, `crpt_map` и кабинеты. Начинать
 стоит с `crpt_map`: он показывает разделы каталога и не требует ключей.
 
 ## Что может пойти не так
