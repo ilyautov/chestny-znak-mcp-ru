@@ -8,7 +8,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Получить случайные данные для подписи при входе в ГИС МТ
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_auth_simplesignin
@@ -19,7 +19,7 @@ endpoints:
   scope: gis-mt
   safety: write
   summary: Обменять подписанные данные на токен доступа
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_cises_info
@@ -30,7 +30,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Сведения о кодах маркировки, пакетом до 1000 штук
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_cises_my
@@ -41,7 +41,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Коды маркировки, принадлежащие участнику оборота
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_cises_short_list
@@ -52,7 +52,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Краткие сведения о кодах маркировки
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_cises_orders_by_id_status
@@ -63,7 +63,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Статус задания на выгрузку кодов
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_cises_orders_by_id_result
@@ -74,7 +74,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Результат задания на выгрузку кодов
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_dispenser_tasks
@@ -85,7 +85,7 @@ endpoints:
   scope: gis-mt
   safety: write
   summary: Создать задание на выгрузку кодов по фильтру
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_product_route_gtin
@@ -96,7 +96,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Маршрут товара по GTIN
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_doc_by_id_info
@@ -107,7 +107,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Сведения о документе в ГИС МТ
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_codes_check
@@ -118,7 +118,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Проверка кодов маркировки на подлинность
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_cdn_info
@@ -129,7 +129,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Список узлов CDN для проверки кодов
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_cdn_health_check
@@ -140,7 +140,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Доступность узла CDN
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_cis_check
@@ -151,7 +151,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Публичная проверка кода маркировки
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_cis_outcheck
@@ -162,7 +162,7 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Публичная проверка кода, выведенного из оборота
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_order
@@ -173,7 +173,7 @@ endpoints:
   scope: suz
   safety: write
   summary: Создать заказ на эмиссию кодов маркировки
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_order_status
@@ -184,7 +184,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Статус заказа на эмиссию кодов
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_order_list
@@ -195,7 +195,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Список заказов на эмиссию
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_order_close
@@ -206,7 +206,7 @@ endpoints:
   scope: suz
   safety: write
   summary: Закрыть заказ на эмиссию
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_order_product
@@ -217,7 +217,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Товары в заказе на эмиссию
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_codes
@@ -228,7 +228,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Получить эмитированные коды маркировки
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_order_codes_retry
@@ -239,7 +239,7 @@ endpoints:
   scope: suz
   safety: write
   summary: Повторный запрос кодов по заказу
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_order_codes_blocks
@@ -250,7 +250,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Блоки кодов в заказе
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_quality
@@ -261,7 +261,7 @@ endpoints:
   scope: suz
   safety: write
   summary: Отчёт о нанесении и качестве кодов
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_quality_cislist
@@ -272,7 +272,7 @@ endpoints:
   scope: suz
   safety: write
   summary: Отчёт о качестве по списку кодов
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_receipts_document
@@ -283,7 +283,7 @@ endpoints:
   scope: suz
   safety: write
   summary: Передать документ по чекам
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_receipts_receipt
@@ -294,7 +294,7 @@ endpoints:
   scope: suz
   safety: write
   summary: Передать чек
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_receipts_receipt_search
@@ -305,7 +305,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Поиск переданных чеков
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_ping
@@ -316,7 +316,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Проверка доступности СУЗ
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_providers
@@ -327,7 +327,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Список доступных провайдеров эмиссии
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_integration_connection
@@ -338,7 +338,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Проверка параметров интеграции
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_suz_status
@@ -349,7 +349,7 @@ endpoints:
   scope: suz
   safety: read
   summary: Статус станции управления заказами, версия 1
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false
 - operation_id: crpt_gis_documents_search
@@ -360,6 +360,6 @@ endpoints:
   scope: gis-mt
   safety: read
   summary: Поиск документов в ГИС МТ
-  doc: https://markirovka.crpt.ru/api-docs
+  doc: https://docs.crpt.ru/gismt/True_API/
   pagination: none
   verified: false

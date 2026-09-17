@@ -57,9 +57,10 @@ def main() -> None:
             "scope": "suz" if host.startswith("suz") else "gis-mt",
             "safety": safety,
             "summary": summary,
-            "doc": "https://markirovka.crpt.ru/api-docs",
+            "doc": "https://docs.crpt.ru/gismt/True_API/",
             "pagination": "none",
-            # Источник — открытые SDK, а не документация ЦРПТ: она за КЭП.
+            # Источник это открытые SDK, а не документация ЦРПТ: она открыта на
+            # docs.crpt.ru, но машиночитаемой спеки нет, генерировать не из чего.
             # Флаг едет в каталог, чтобы агент честно показывал статус метода.
             "verified": False,
         })
