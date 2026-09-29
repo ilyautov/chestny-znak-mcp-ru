@@ -1,0 +1,36 @@
+{
+  "name": "chestny-znak-mcp-ru",
+  "displayName": "Chestny ZNAK API (unofficial)",
+  "version": "0.3.0",
+  "description": "API Честного знака прямо в Claude: сведения о кодах маркировки, выгрузка по фильтру, маршрут товара по GTIN, заказы на эмиссию, отчёты о нанесении, проверка подлинности.",
+  "author": {
+    "name": "Ilya Utov",
+    "url": "https://github.com/ilyautov"
+  },
+  "homepage": "https://business-mcp-ru.aifrontier.tech/chestny-znak-api.html",
+  "repository": "https://github.com/ilyautov/chestny-znak-mcp-ru",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "crpt",
+    "chestny-znak",
+    "честный-знак",
+    "marking",
+    "маркировка",
+    "russia",
+    "claude"
+  ],
+  "privacyPolicyUrl": "https://business-mcp-ru.aifrontier.tech/privacy.html",
+  "supportUrl": "https://github.com/ilyautov/chestny-znak-mcp-ru/issues",
+  "documentationUrl": "https://github.com/ilyautov/chestny-znak-mcp-ru#readme",
+  "userConfig": {
+    "crpt_token": {
+      "type": "string",
+      "title": "Токен ГИС МТ",
+      "description": "GET /api/v3/true-api/auth/key отдаёт данные для подписи, их подписывают КЭП (КриптоПро) и обменивают через POST /api/v3/true-api/auth/simpleSignIn. Токен живёт около 10 часов.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

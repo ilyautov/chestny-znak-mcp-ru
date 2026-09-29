@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "chestny-znak": {
+      "command": "python3",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/serve.py",
+        "crpt"
+      ],
+      "env": {
+        "CRPT_TOKEN": "${user_config.crpt_token}"
+      }
+    }
+  }
+}
